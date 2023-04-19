@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Jane Doe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Vineet Rathod</h1>
+            <h2>Web Developer &amp; Designer</h2>
+            <p>Welcome to my portfolio website!</p>
+            <a href="#portfolio" class="btn">View my work</a>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="img/images.jpg" alt="Jane Doe Profile Picture" class="profile-pic">
+                <p>I am a web developer and designer with over 5 years of experience in the industry. I specialize in creating beautiful and functional websites that help businesses grow and succeed.</p>
+                <p>In my free time, I enjoy hiking, reading, and exploring new cities.</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <a href="https://snack.expo.dev/@vicku/exo-planet-catalog" target="_blank"><img src="img/download.jpg" alt="Project 1"></a>
+                    <a href="img/project2.jpg" target="_blank"><img src="img/project2.jpg" alt="Project 2"></a>
+                    <a href="img/project3.jpg" target="_blank"><img src="img/project3.jpg" alt="Project 3"></a>
+                    <a href="img/project4.jpg" target="_blank"><img src="img/project4.jpg" alt="Project 4"></a>
+                    <a href="img/project5.jpg" target="_blank"><img src="img/project5.jpg" alt="Project 5"></a>
+                    <a href="img/project6.jpg" target="_blank"><img src="img/project6.jpg" alt="Project 6"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Jane Doe 2023. All rights reserved.</p>
+    </footer>
+
+    <script
